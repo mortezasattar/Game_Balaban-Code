@@ -1,0 +1,719 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18c5d991f36ea846aa4d531f0473601, type: 3}
+  m_Name: QuestionBank
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What does it mean to save money?
+    options:
+    - Spending all your cash
+    - Putting some aside for later
+    - Borrowing from friends
+    - Buying stuff right away
+    correctAnswerIndex: 1
+  - questionText: Why is saving money important?
+    options:
+    - To flex online
+    - For emergencies or future stuff
+    - So you can waste it later
+    - To fill your wallet
+    correctAnswerIndex: 1
+  - questionText: Where's a safe place to keep savings?
+    options:
+    - Under your bed
+    - A bank account
+    - A cookie jar
+    - With a stranger
+    correctAnswerIndex: 1
+  - questionText: What's an easy way to start saving?
+    options:
+    - Spend now, save later
+    - Set aside a little each time
+    - Gamble it
+    - Borrow weekly
+    correctAnswerIndex: 1
+  - questionText: What does investing mean?
+    options:
+    - Spending fast
+    - Using money to make more
+    - Borrowing
+    - Hiding it
+    correctAnswerIndex: 1
+  - questionText: Which is lowest-risk investment?
+    options:
+    - Crypto
+    - Stocks
+    - Savings account
+    - Starting a business
+    correctAnswerIndex: 2
+  - questionText: What are stocks?
+    options:
+    - Money you borrow
+    - Ownership in a company
+    - Gold
+    - Coupons
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s \u201Crisk\u201D in finance?"
+    options:
+    - Getting free money
+    - Chance to lose cash
+    - No impact
+    - Tax refund
+    correctAnswerIndex: 1
+  - questionText: "\u201CReward\u201D means...?"
+    options:
+    - Free gift
+    - Profit earned
+    - Bonus from boss
+    - Tip from a friend
+    correctAnswerIndex: 1
+  - questionText: Risk and reward...?
+    options:
+    - "Aren\u2019t linked"
+    - High risk = low reward
+    - High risk = high reward
+    - Never mix
+    correctAnswerIndex: 2
+  - questionText: What is a budget?
+    options:
+    - Netflix list
+    - A money plan
+    - Gift card
+    - Store bill
+    correctAnswerIndex: 1
+  - questionText: Why budget matters?
+    options:
+    - Track cash and spending
+    - Get more coupons
+    - Buy faster
+    - Spend more
+    correctAnswerIndex: 0
+  - questionText: "What\u2019s a fixed expense?"
+    options:
+    - Movie night
+    - Rent
+    - Snacks
+    - Shopping trips
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s a variable expense?"
+    options:
+    - Rent
+    - Groceries
+    - Loan
+    - Internet
+    correctAnswerIndex: 1
+  - questionText: What is debt?
+    options:
+    - Bonus money
+    - Cash you owe
+    - Gift from bank
+    - Free stuff
+    correctAnswerIndex: 1
+  - questionText: A credit card is...?
+    options:
+    - Gift card
+    - Loan tool
+    - Savings account
+    - Discount app
+    correctAnswerIndex: 1
+  - questionText: To repay debt means...?
+    options:
+    - Pay later
+    - Give it back
+    - Avoid it
+    - Lend it out
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s financial planning?"
+    options:
+    - Party planning
+    - Organizing money goals
+    - Hiding cash
+    - Guessing budget
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s a financial goal?"
+    options:
+    - Phone upgrade
+    - Save for school
+    - More coffee
+    - Daily snacks
+    correctAnswerIndex: 1
+  - questionText: Why set short + long goals?
+    options:
+    - For fun
+    - Make smarter choices
+    - Spend fast
+    - Avoid budgets
+    correctAnswerIndex: 1
+  - questionText: What are taxes?
+    options:
+    - Government payments
+    - Free money
+    - Donations
+    - Store tips
+    correctAnswerIndex: 0
+  - questionText: What do taxes pay for?
+    options:
+    - Concerts
+    - Roads + schools
+    - Movie nights
+    - Lottery
+    correctAnswerIndex: 1
+  - questionText: Income tax is based on...?
+    options:
+    - Your mood
+    - What you earn
+    - Job title
+    - Shopping
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s an entrepreneur?"
+    options:
+    - Loan taker
+    - Starts a business
+    - Cashier
+    - Blogger
+    correctAnswerIndex: 1
+  - questionText: First step to start a biz?
+    options:
+    - Buy a desk
+    - Write a plan
+    - Post online
+    - Take a break
+    correctAnswerIndex: 1
+  - questionText: Why take risks in biz?
+    options:
+    - Avoid work
+    - Grow and profit
+    - Waste money
+    - Get lucky
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s financial ethics?"
+    options:
+    - Avoiding bills
+    - Honest money use
+    - Free cash
+    - Ignore debt
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s ethical behavior with money?"
+    options:
+    - Fake income
+    - Pay on time
+    - "Use others\u2019 cards"
+    - Delay bills
+    correctAnswerIndex: 1
+  - questionText: Why be honest financially?
+    options:
+    - Get rich
+    - Build trust
+    - Hide cash
+    - Save faster
+    correctAnswerIndex: 1
+  - questionText: "Picking 2 phones \u2014 smart step?"
+    options:
+    - Buy both
+    - Compare price + needs
+    - Ask friends
+    - Pick the brand
+    correctAnswerIndex: 1
+  - questionText: "Buying a game \u2014 what to check?"
+    options:
+    - Budget
+    - "Friend\u2019s score"
+    - Cool trailer
+    - How long it is
+    correctAnswerIndex: 0
+  - questionText: Delay a purchase when...?
+    options:
+    - Feeling unsure
+    - "You\u2019re bored"
+    - "You\u2019re paid"
+    - "It\u2019s trending"
+    correctAnswerIndex: 0
+  - questionText: "Earn $500/month \u2014 what to do?"
+    options:
+    - Spend all
+    - Save some
+    - Lend it
+    - Upgrade phone
+    correctAnswerIndex: 1
+  - questionText: Maria saves $50 monthly. After 10 months?
+    options:
+    - $100
+    - $250
+    - $600
+    - $500
+    correctAnswerIndex: 3
+  - questionText: Best way to save each month?
+    options:
+    - Spend first
+    - Save randomly
+    - Set a goal and track it
+    - Borrow then save
+    correctAnswerIndex: 2
+  - questionText: You earn $100 a week. Save how much?
+    options:
+    - "$10\u201320"
+    - $200
+    - $95
+    - $0
+    correctAnswerIndex: 0
+  - questionText: "You\u2019ve saved $200, add $25/week. When will you hit $400?"
+    options:
+    - 10 weeks
+    - 12 weeks
+    - 16 weeks
+    - 8 weeks
+    correctAnswerIndex: 3
+  - questionText: What are bonds?
+    options:
+    - Stock shares
+    - Loans to companies/gov
+    - Savings accounts
+    - Debit cards
+    correctAnswerIndex: 1
+  - questionText: Diversifying your investments...
+    options:
+    - Guarantees gains
+    - Spreads out risk
+    - Raises taxes
+    - Hurts returns
+    correctAnswerIndex: 1
+  - questionText: High returns often mean...?
+    options:
+    - No risk
+    - Lower interest
+    - Higher risk
+    - Easy wins
+    correctAnswerIndex: 2
+  - questionText: "Young and saving for retirement \u2014 best plan?"
+    options:
+    - Only low-risk stuff
+    - All in cash
+    - Mix in higher-risk assets
+    - Avoid investing
+    correctAnswerIndex: 2
+  - questionText: Why do high-risk options offer more reward?
+    options:
+    - No risk at all
+    - Bigger chance of big loss or win
+    - "They\u2019re safer"
+    - They're controlled
+    - One stock only
+    - Nothing at all
+    - Bonds, stocks, funds
+    - Crypto + debt
+    correctAnswerIndex: 1
+  - questionText: "\u201CLive within your means\u201D means...?"
+    options:
+    - Spend what you earn
+    - Use credit always
+    - Go over budget
+    - Take loans monthly
+    correctAnswerIndex: 0
+  - questionText: "Earn $2,000, spend $1,800 \u2014 that\u2019s...?"
+    options:
+    - Overspending
+    - Surplus
+    - Budget fail
+    - Breaking even
+    correctAnswerIndex: 1
+  - questionText: Best tool for managing a budget?
+    options:
+    - Video app
+    - Credit card
+    - Budget app
+    - Social media
+    correctAnswerIndex: 2
+  - questionText: APR stands for...?
+    options:
+    - Annual Percentage Rate
+    - Payback range
+    - Bonus fee
+    - Extra loan
+    correctAnswerIndex: 0
+  - questionText: Avoid debt traps by...?
+    options:
+    - Credit cards only
+    - No planning
+    - Budget + borrow smart
+    - Max loans
+    correctAnswerIndex: 2
+  - questionText: Loan is $1,000, 10% rate. Interest owed?
+    options:
+    - $10
+    - $500
+    - $1,000
+    - $100
+    correctAnswerIndex: 3
+  - questionText: What is a SMART goal?
+    options:
+    - Random one
+    - Clear + trackable
+    - Secret wish
+    - Guessing game
+    correctAnswerIndex: 1
+  - questionText: Planning helps avoid...?
+    options:
+    - Saving
+    - Overspending
+    - Growth
+    - Side jobs
+    correctAnswerIndex: 1
+  - questionText: "Income drops \u2014 first move?"
+    options:
+    - Party
+    - Adjust your plan
+    - Shop more
+    - Take a trip
+    correctAnswerIndex: 1
+  - questionText: A tax deduction does what?
+    options:
+    - Adds income
+    - Lowers taxes owed
+    - Gives refund
+    - Is optional
+    correctAnswerIndex: 1
+  - questionText: Valid deduction?
+    options:
+    - TV
+    - Business cost
+    - Vacation
+    - Snacks
+    correctAnswerIndex: 1
+  - questionText: "\u201CFiling taxes\u201D means...?"
+    options:
+    - Send income info
+    - Pay bills
+    - Write a bio
+    - Budget day
+    correctAnswerIndex: 0
+  - questionText: "A \u201Cpitch\u201D is...?"
+    options:
+    - Sales talk
+    - Bank form
+    - Receipt
+    - Logo
+    correctAnswerIndex: 0
+  - questionText: Revenue is...?
+    options:
+    - Income earned
+    - Bonus
+    - Biz cost
+    - Bank fees
+    correctAnswerIndex: 0
+  - questionText: "What\u2019s bootstrapping?"
+    options:
+    - Using own savings
+    - Big investor
+    - Tech stack
+    - Hiring fast
+    correctAnswerIndex: 0
+  - questionText: Break-even point = ?
+    options:
+    - Costs = income
+    - Time to profit
+    - Loss
+    - Overhead
+    correctAnswerIndex: 0
+  - questionText: Be transparent with money?
+    options:
+    - Hide expenses
+    - Be open
+    - Guess it
+    - Ignore it
+    correctAnswerIndex: 1
+  - questionText: Unethical biz habit?
+    options:
+    - Mix personal + biz money
+    - Pay on time
+    - Log receipts
+    - Track costs
+    correctAnswerIndex: 0
+  - questionText: Knowingly take big debt = ?
+    options:
+    - Smart move
+    - Unethical
+    - Free risk
+    - Credit bonus
+    correctAnswerIndex: 1
+  - questionText: "Rent or buy \u2014 what to compare?"
+    options:
+    - Colors
+    - Flexibility + cost
+    - Store brand
+    - "Friends\u2019 homes"
+    correctAnswerIndex: 1
+  - questionText: "College \u2014 smart money step?"
+    options:
+    - Pick fast
+    - Compare costs + aid
+    - Join trend
+    - Shop gear
+    correctAnswerIndex: 1
+  - questionText: "Used car over new \u2014 why?"
+    options:
+    - Smells better
+    - Costs less
+    - Trendy
+    - More gas
+    correctAnswerIndex: 1
+  - questionText: "Grocery shopping \u2014 best tactic?"
+    options:
+    - Buy what looks good
+    - Use list + compare prices
+    - Shop hungry
+    - Avoid store
+    correctAnswerIndex: 1
+  - questionText: Why is compound interest great?
+    options:
+    - It grows on itself
+    - They subtract it
+    - Only paid once
+    - You get charged
+    correctAnswerIndex: 0
+  - questionText: How does inflation affect savings?
+    options:
+    - No effect
+    - Makes money worth less
+    - Grows your savings
+    - Adds bonuses
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s a high-yield savings account?"
+    options:
+    - One with higher interest
+    - One with more fees
+    - Riskier account
+    - Locked account
+    correctAnswerIndex: 0
+  - questionText: Why use multiple savings accounts?
+    options:
+    - 'Pay more tax '
+    - 'Lower your risk '
+    - Lose money
+    - Save less
+    correctAnswerIndex: 1
+  - questionText: 'Who benefits most from compound growth? '
+    options:
+    - 'Short-term savers '
+    - 'Regular reinvestors '
+    - 'One-time buyers '
+    - 'Credit users '
+    correctAnswerIndex: 1
+  - questionText: What happens in a downturn?
+    options:
+    - Market rises
+    - Market drops
+    - Stays flat
+    - No change
+    correctAnswerIndex: 1
+  - questionText: Real estate returns come from...?
+    options:
+    - Selling fast
+    - Rent + value growth
+    - Interest
+    - Dividends
+    correctAnswerIndex: 1
+  - questionText: Key to choosing based on risk?
+    options:
+    - Pick your favorite brand
+    - Look at others
+    - Know your goals
+    - Ask a stranger
+    correctAnswerIndex: 2
+  - questionText: Big short-term returns = ?
+    options:
+    - Guaranteed growth
+    - Low risk
+    - High volatility
+    - Tax-free
+    correctAnswerIndex: 2
+  - questionText: "What\u2019s hedging risk?"
+    options:
+    - Ignore it
+    - Take more risk
+    - Reduce losses
+    - Sell all at once
+    correctAnswerIndex: 2
+  - questionText: Good long-term budget includes...?
+    options:
+    - Just coffee plans
+    - Adjust + review
+    - Ignore bills
+    - No savings
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s a \u201Csinking fund\u201D?"
+    options:
+    - Savings for big stuff
+    - Cruise money
+    - Loan
+    - Emergency use
+    correctAnswerIndex: 0
+  - questionText: No room to save in budget? Do what?
+    options:
+    - Buy more
+    - Take a trip
+    - Cut non-essentials
+    - Skip it
+    correctAnswerIndex: 2
+  - questionText: Pay card minimum on $5k debt = ?
+    options:
+    - Quick payoff
+    - Over 10 years
+    - Free rewards
+    - 1 month
+    correctAnswerIndex: 1
+  - questionText: Snowball method = ?
+    options:
+    - Pay small debts first
+    - Big loans only
+    - Take more debt
+    - Skip interest
+    correctAnswerIndex: 0
+  - questionText: Credit use above 30% = ?
+    options:
+    - Boost score
+    - Hurt credit
+    - Save fees
+    - Lower bills
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s asset allocation?"
+    options:
+    - Splitting investments
+    - Selling stocks
+    - Loan method
+    - Credit use
+    correctAnswerIndex: 0
+  - questionText: Tool to plan future expenses?
+    options:
+    - Calendar
+    - Budget sheet
+    - Meme app
+    - Expense list
+    correctAnswerIndex: 1
+  - questionText: Good plan includes...?
+    options:
+    - Just cash
+    - Savings, investing, safety
+    - One account
+    - One goal
+    correctAnswerIndex: 1
+  - questionText: "What\u2019s the difference between tax avoidance and tax evasion?"
+    options:
+    - Both are illegal
+    - "One\u2019s smart, one\u2019s criminal"
+    - Neither matters
+    - Just depends on mood
+    correctAnswerIndex: 1
+  - questionText: A tax-deferred account means...?
+    options:
+    - Pay tax later
+    - No tax ever
+    - Pay upfront
+    - Tax-free forever
+    correctAnswerIndex: 0
+  - questionText: Why do high earners hire tax pros?
+    options:
+    - Skip budgeting
+    - Lower taxes legally
+    - Share memes
+    - Hide money
+    correctAnswerIndex: 1
+  - questionText: Venture capital is...?
+    options:
+    - Startup investment
+    - Gov fund
+    - Bonus card
+    - Biz fee
+    correctAnswerIndex: 0
+  - questionText: Crowdfunding = ?
+    options:
+    - Bank loan
+    - Public donations online
+    - Free cash
+    - Sponsor ad
+    correctAnswerIndex: 1
+  - questionText: Burn rate is...?
+    options:
+    - Spending speed
+    - Profit
+    - Budget bonus
+    - Loan payoff
+    correctAnswerIndex: 0
+  - questionText: Conflict of interest = ?
+    options:
+    - Two bank accounts
+    - Personal gain affects others
+    - Holding stocks
+    - Net loss
+    correctAnswerIndex: 1
+  - questionText: Insider trading is...?
+    options:
+    - Fine if secret
+    - Unethical & illegal
+    - Trendy investing
+    - Normal
+    correctAnswerIndex: 1
+  - questionText: Show integrity = ?
+    options:
+    - Hide errors
+    - Report truth
+    - Spin profits
+    - Inflate gains
+    correctAnswerIndex: 1
+  - questionText: Ethical advisor must...?
+    options:
+    - Sell fast
+    - Focus on client needs
+    - Push products
+    - Skip details
+    correctAnswerIndex: 1
+  - questionText: Social investors avoid...?
+    options:
+    - Polluters
+    - Tech stocks
+    - Fast food
+    - Small brands
+    correctAnswerIndex: 0
+  - questionText: "Moving cities \u2014 smart step?"
+    options:
+    - Guess rent
+    - Research costs
+    - Pick vibe
+    - Avoid planning
+    correctAnswerIndex: 1
+  - questionText: Cashback card works if...?
+    options:
+    - You pay in full
+    - You spend big
+    - You skip tracking
+    - You max it out
+    correctAnswerIndex: 0
+  - questionText: "Got a raise \u2014 what next?"
+    options:
+    - Party
+    - Save more
+    - Upgrade car
+    - Spend it all
+    correctAnswerIndex: 1
+  - questionText: When to buy a house?
+    options:
+    - When pressured
+    - With savings + plan
+    - Right after job
+    - After 1st paycheck
+    correctAnswerIndex: 1
+  - questionText: "Monthly spend > income \u2014 do what?"
+    options:
+    - Shop more
+    - 'Cut extras (correct answer) '
+    - 'Get loan '
+    - Ignore it
+    correctAnswerIndex: 1

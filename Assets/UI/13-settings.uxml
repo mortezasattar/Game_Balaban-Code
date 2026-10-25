@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; position: absolute; background-image: url(&apos;project://database/Assets/Textures/UI/Gradient-01.png?fileID=2800000&amp;guid=50b9f193228bf314d8e7869b8ed10c00&amp;type=3#Gradient-01&apos;);" />
+    <ui:VisualElement name="cloud" style="background-image: url(&apos;project://database/Assets/Textures/UI/Clouds.png?fileID=-2058144907&amp;guid=c519227f182df704ab41b44f46096d1a&amp;type=3#Clouds_Larg&apos;); width: 966px; height: 566px; position: absolute; top: -100px; left: -316px;" />
+    <ui:VisualElement style="width: 100%; height: 100%; justify-content: center; align-items: center;">
+        <ui:VisualElement name="main" style="width: 90%; height: 90%; background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=81330277&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_9&apos;); justify-content: flex-start; align-items: center;">
+            <ui:VisualElement name="close" style="position: absolute; top: 0; background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-1329331165&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_13&apos;); height: 155px; width: 150px; right: 0;" />
+            <ui:Label tabindex="-1" text="Setting" display-tooltip-when-elided="true" style="height: 150px; width: 100%; -unity-text-align: middle-center; font-size: 86px; color: rgb(108, 108, 108);" />
+            <ui:VisualElement name="line" style="width: 60%; background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=1724866505&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_10&apos;); height: 10px;" />
+            <ui:VisualElement name="Username" style="width: 827px; flex-direction: row; align-items: center; justify-content: space-around; background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-477907550&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_1&apos;); height: 162px; font-size: 20px; margin-top: 66px;">
+                <ui:TextField picking-mode="Ignore" label="Name" value="User 01" text="User 01" name="TextField" multiline="false" is-delayed="false" readonly="false" password="false" focusable="true" tooltip="Your Name" style="height: 104px; width: 669px; font-size: 63px; -unity-text-align: middle-center; -unity-text-outline-color: rgb(29, 25, 25); color: rgb(34, 32, 32); -unity-text-outline-width: 0; align-items: center; justify-content: space-between; -unity-font-style: bold; top: -4px; background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="language" style="width: 827px; flex-direction: row; align-items: center; justify-content: space-around; background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-477907550&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_1&apos;); height: 162px; font-size: 20px; margin-top: 55px;">
+                <ui:DropdownField label="LANGUAGE" index="-1" choices="English,Arabic,Persian" focusable="true" style="height: 73px; width: 665px; font-size: 55px; -unity-font-style: bold; -unity-text-align: middle-left; align-items: center; justify-content: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: space-around; white-space: nowrap; -unity-text-align: middle-center; width: 90%; margin-top: 46px;">
+                <ui:VisualElement name="Icon" style="background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=1751833542&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_17&apos;); width: 104px; height: 101px;" />
+                <ui:Label tabindex="-1" text="Music" display-tooltip-when-elided="true" style="font-size: 54px; -unity-font-style: bold; color: rgb(137, 137, 137);" />
+                <ui:VisualElement name="Icon" style="background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-1899668538&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_22&apos;); width: 104px; height: 101px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: space-around; white-space: nowrap; -unity-text-align: middle-center; width: 90%; margin-top: 52px;">
+                <ui:VisualElement name="Icon" style="background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-736399682&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_14&apos;); width: 104px; height: 101px;" />
+                <ui:Label tabindex="-1" text="sound" display-tooltip-when-elided="true" name="Label" style="font-size: 54px; -unity-font-style: bold; color: rgb(137, 137, 137);" />
+                <ui:VisualElement name="cbx_sound" style="background-image: url(&apos;project://database/Assets/Textures/UI/UI-01.png?fileID=-857482574&amp;guid=7d59cad3d698acb42935929c61783c8f&amp;type=3#UI-01_7&apos;); width: 104px; height: 101px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="space" style="flex-grow: 1;" />
+            <ui:VisualElement name="space" style="flex-grow: 1; width: 80%;">
+                <ui:Label tabindex="-1" text="Disable sound - Music and name &#10;and extra description" display-tooltip-when-elided="true" style="width: 100%; -unity-font-style: bold; font-size: 35px; -unity-text-align: middle-center; height: 100%; color: rgb(96, 96, 96);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="cloud" style="width: 626px; height: 386px; position: absolute; top: auto; left: auto; -unity-background-scale-mode: scale-and-crop; bottom: 0; right: -148px; background-image: url(&apos;project://database/Assets/Textures/UI/Clouds.png?fileID=-2026648404&amp;guid=c519227f182df704ab41b44f46096d1a&amp;type=3#Clouds_small&apos;);" />
+</ui:UXML>
