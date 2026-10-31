@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7cb98fe8d0440ba48af6a9883e816989
 ModelImporter:
-  serializedVersion: 22103
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -13,12 +13,14 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal
-    second: {fileID: 2100000, guid: 1330f6991e0ec88498e5149b8658c653, type: 2}
+    second: {fileID: -4973734387028869240, guid: 217ee90c2d99a3941ae80fcdb0baeeab,
+      type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: purple
-    second: {fileID: 2100000, guid: ca277515bc33b3048b3d8b7ab64f87c7, type: 2}
+    second: {fileID: -872196626646429207, guid: 94f33e9a22597e442b4c25e06323568a,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -31,8 +33,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -55,6 +55,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -72,6 +73,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

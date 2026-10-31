@@ -1,19 +1,21 @@
 fileFormatVersion: 2
 guid: bac76437f805e994788c7a4274780055
 ModelImporter:
-  serializedVersion: 22103
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: dark purple
-    second: {fileID: 2100000, guid: 7a9384dea4eab5949b917ccefce3473f, type: 2}
+    second: {fileID: -872196626646429207, guid: 94f33e9a22597e442b4c25e06323568a,
+      type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white
-    second: {fileID: 2100000, guid: e3a980b28dd0c2847bc996ccc5bdcc50, type: 2}
+    second: {fileID: 7922251121040759823, guid: ccec4c115638bde489bd2a1bc9720a12,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -26,8 +28,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -50,6 +50,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -67,6 +68,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
